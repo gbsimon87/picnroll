@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--clr-grey-10);
+}
+
+.header .header__top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.header .header__top .header__top__logo {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.header__bottom {
+  width: 100%;
+  display: flex;
+  min-height: 3rem;
+}
+
+.header .header__top__burger {
+  cursor: pointer;
+}

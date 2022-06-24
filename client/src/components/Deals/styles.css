@@ -1,0 +1,47 @@
+.deals {
+  color: #f1f5f8;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.deals__items {
+  overflow: scroll;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deals__item {
+  margin: 1rem;
+  text-align: center;
+  min-height: 15rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deals__item img {
+  object-fit: cover;
+  width: 7rem;
+  height: 7rem;
+}
+
+.deals__item__price {
+  font-weight: bold;
+}
+
+.deals__item__price .price-new {
+  font-size: 1.2rem;
+}
+
+.deals__item__price .price-old {
+  text-decoration: line-through;
+  color: red;
+  margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .deals__items {
+    justify-content: space-around;
+  }
+}
